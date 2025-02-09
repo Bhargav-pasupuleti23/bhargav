@@ -9,7 +9,7 @@
 
 .cont-1 {
 
-    background: url(./files/portfolio-final-bg.jpg);
+    background: url(./portfolio-final-bg.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -370,7 +370,7 @@ hr {
 
 .cont-3 {
     margin: 0;
-    background: url(./files/con-bg2.jpg);
+    background: url(./con-bg2.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
