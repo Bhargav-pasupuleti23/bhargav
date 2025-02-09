@@ -201,7 +201,7 @@ a:hover {
 }
 
 .cont-2 {
-    background-image: url(https://img.freepik.com/free-vector/abstract-watercolor-landscape-background_23-2148307131.jpg);
+    background-image: url(./cont-2-bg.avif);
     background-size: cover;
     background-position: center;
     filter: blur(50%);
