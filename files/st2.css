@@ -149,7 +149,7 @@
     }
 
     .skill {
-        height: 70vh;
+        height: 75vh;
         display: grid;
         flex-direction: column;
         justify-content: center;
