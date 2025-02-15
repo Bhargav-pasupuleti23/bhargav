@@ -150,16 +150,17 @@
 
     .skill {
         height: 75vh;
-        display: grid;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        justify-self:center;
     }
 
     .skills {
         font-size: 10px;
         padding: 5px;
-        margin: 0px;
+        margin: 7px;
         padding: 20px;
     }
 
