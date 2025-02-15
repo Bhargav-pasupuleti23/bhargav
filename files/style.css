@@ -348,7 +348,7 @@ border-radius:10px 10px ;
     border: white;
     display: flex;
     justify-content: end;
-    padding-right: 10px;
+    padding-right: 6px;
     animation: bar1 1.5s ease 1 forwards;
 }
 @keyframes bar1{
