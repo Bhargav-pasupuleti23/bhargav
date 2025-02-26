@@ -218,7 +218,7 @@
     position: absolute;
     font-size: 8.5px;
     max-width: max-content;
-
+animation:none;
     font-weight: bold;
     border: 0.1px solid black;
     background: transparent;
@@ -237,6 +237,7 @@
     max-width: max-content;
     font-size: 8.5px;
     font-weight: bold;
+animation:none;
     border: 0.1px solid black;
     background: transparent;
     color: black;
@@ -257,6 +258,7 @@
     max-width: max-content;
     background: transparent;
     color:black;
+animation:none;
     transform:scale(0);
     transition: transform 0.2s ease;
     border-radius: 5px;
