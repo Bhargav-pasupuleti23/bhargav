@@ -290,10 +290,6 @@ margin: 8px;
     outline: none;
 }
 
-.connect-1:hover {
-    transform: scale(1.2);
-    transition: 0.2s ease;
-}
 
 .image {
 
