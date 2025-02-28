@@ -91,7 +91,7 @@
     align-items: center;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.6);
     padding: 10px;
-    animation: 2s ease zoo 1 forwards;
+    animation: 3s op ease 1 forwards;
 
 }
 
@@ -140,14 +140,14 @@
     color: white;
     text-align: justify;
     justify-self: start;
-    animation: zoo 3.5s ease 1 forwards;
+    animation: 3s op ease 1 forwards;
 
 }
 
 .home-left span {
     color: aquamarine;
     font-size: 50px;
-    animation: zoo 3.5s ease 1 forwards;
+    animation: 3s op ease 1 forwards;
 }
 
 
@@ -185,7 +185,7 @@
     color: white;
     font-size: 18px;
     margin: 6px;
-    animation: 3s zoo ease-in-out 1 forwards;
+    animation: 3s op ease 1 forwards;
 }
 
 @keyframes zoo {
@@ -302,7 +302,7 @@
     filter: drop-shadow(0px 0px 20px black);
     align-self: center;
     filter: brightness(79%);
-    animation: 3s zoo ease-in-out 1 forwards;
+    animation: 3s op ease 1 forwards;
     border: 0px solid black;
     border-bottom: 2.5px solid rgb(196, 189, 189);
     border-radius: 10% 50%;
