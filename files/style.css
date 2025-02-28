@@ -233,7 +233,7 @@
     font-size: 9px;
     max-width: max-content;
     font-weight: 390;
-    animation: normal;
+  
     border: 0.1px solid white;
     background: transparent;
     color: white;
@@ -253,7 +253,7 @@
     justify-self: center;
     max-width: max-content;
     font-size: 9px;
-    animation: normal;
+    
     overflow: hidden;
     font-weight: 390;
     border: 0.1px solid white;
@@ -274,7 +274,7 @@
     justify-self: center;
     font-size: 9px;
     font-weight: 390;
-    animation: normal;
+   
     overflow: hidden;
     border: 0.1px solid white;
     max-width: max-content;
