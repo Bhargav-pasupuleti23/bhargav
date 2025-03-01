@@ -210,13 +210,14 @@
     width: 30%;
     padding: 20px;
     overflow: hidden;
+animation:3s op 1 ease forwards;
 
 }
 
 .logg {
     height: 30px;
     margin-right: 10px;
-    animation: 4s op ease 1 forwards;
+    
 }
 
 
@@ -232,8 +233,7 @@
     overflow: hidden;
     font-size: 9px;
     max-width: max-content;
-    font-weight: 390;
-  
+    font-weight: 390;
     border: 0.1px solid white;
     background: transparent;
     color: white;
