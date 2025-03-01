@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@media (max-width:500px) {
+
+    body,
+    html {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+        overflow-x: hidden;
+    }
+
+    .cont-1 {
+        background: url(https://wallpapercave.com/wp/wp13367382.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .navigation-bar {
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .title-name {
+        font-size: 22px;
+        margin: 0%;
+    }
+
+    .navs a {
+        margin: 3.9px;
+        font-weight: 200;
+        font-size: 17px;
+    }
+
+    .home {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 69vh;
+        padding-bottom: 30px;
+        backdrop-filter: blur(9px);
+
+    }
+
+    .home-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 37vh;
+        margin: 0%;
+        padding-top: 0%;
+        align-items: center;
+
+
+    }
+
+    .home-left h1 {
+
+        margin: 7px;
+        font-size: 30px;
+    }
+
+    .home-left span {
+        font-size: 30px;
+    }
+
+    .home-left p {
+        font-size: 13px;
+        align-items: center;
+        font-weight: 360;
+        text-align: justify;
+        margin-top: 0%;
+
+        padding: 20px 0px;
+        letter-spacing: normal;
+    }
+
+    .connect {
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+        align-items: center;
+        justify-content: center;
+        height: 19%;
+
+        width: 90%;
+        padding: 20px;
+    }
+
+    .connect-1 {
+        margin: 8px;
+
+    }
+
+    .connect-1 a {
+        text-decoration: none;
+        border: none;
+        outline: none;
+    }
+
+    .connect-1 img {
+        height: 30px;
+
+
+    }
+
+    .connect-1:active {
+        transform: scale(1.2);
+        transition: 0.3s ease;
+    }
+
+    .home-right {
+        display: flex;
+        height: 50vh;
+        justify-content: center;
+        align-items: end;
+        width: 100%;
+        padding-bottom: 0px;
+        margin: 0;
+        padding-top: 50px;
+        margin-bottom: 0%;
+    }
+
+    .image {
+        margin: 0;
+        display: flex;
+        align-items: end;
+        justify-self: center;
+        height: 279px;
+        justify-self: end;
+    }
+
+    .home-left h1 {
+        font-size: 20px;
+        margin: 0%;
+        padding: 0%;
+        text-align: center;
+    }
+
+    .hl-label {
+        font-size: 26px;
+    }
+
+
+    .cont-2 {
+        background: url(https://e0.pxfuel.com/wallpapers/220/658/desktop-wallpaper-mycompres-on-technology-scenery-landscape-minimal.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .head-cont {
+        display: flex;
+        margin: 10px;
+        align-items: center;
+        justify-content: space-between;
+        animation: dee 1.5s ease 1 forwards;
+    }
+
+    @keyframes dee {
+        0% {
+            transform: scale(0);
+        }
+
+        50% {
+            transform: scale(1);
+        }
+
+        100% {
+            transform: scale();
+        }
+
+    }
+
+    .back-icon {
+        height: 20px;
+    }
+
+    .head-cont p {
+        margin: 0%;
+        padding: 0%;
+        font-size: 29px;
+        align-items: center;
+    }
+
+    .sk-back-btns {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .sk-back-btns a p {
+        font-size: 19px;
+        font-weight: 300;
+    }
+
+    .back-icon {
+        height: 20px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .skill {
+        height: 65vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(9px);
+    }
+
+    .skills {
+        font-size: 9px;
+        margin: 7px;
+        padding: 10px;
+
+    }
+
+    .skills:hover {
+        transform: scale(0.8);
+        transition: 0.5 ease;
+    }
+
+    .skill-icons {
+        height: 27px;
+    }
+
+    .skills p {
+        font-size: 5.8px;
+        color: white;
+        font-weight: 500;
+        padding: 0%;
+    }
+
+    .bars {
+        height: 1px;
+        width: 50%;
+    }
+
+    .bars .p1 {
+        width: 68%;
+        padding-right: 1.8px;
+
+    }
+
+    .bars .p2 {
+        width: 70%;
+        padding-right: 1.8px;
+
+    }
+
+    .bars .p3 {
+        width: 72%;
+        padding-right: 1.8px;
+    }
+
+    .bars .p4 {
+        width: 76%;
+        padding-right: 1.8px;
+    }
+
+
+
+
+    .cont-3 {
+        max-height: 100%;
+        margin: 0%;
+        padding: 0%;
+        background: url(https://i.pinimg.com/236x/89/34/39/893439039cc2508201656d22bff97f75.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .head-cont3 {
+        width: 100%;
+        height: 15vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        animation: dee 2.5s ease 1 forwards;
+
+    }
+
+    .con-btns {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 50%;
+        align-items: center;
+        justify-self: center;
+
+
+    }
+
+    .back {
+        font-size: 18px;
+    }
+
+    .back-home {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .btn-home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25px;
+    }
+
+    .con-name p {
+        margin: 0%;
+
+        padding-left: 5px;
+        font-size: 18px;
+    }
+
+    .con-label {
+
+        font-size: 25px;
+    }
+
+    .con-heading p {
+        margin: 0%;
+        padding-bottom: 39px;
+    }
+
+    .forms {
+        height: 60vh;
+        padding: 0%;
+        width: 75%;
+        justify-content: center;
+    }
+
+    .forms input {
+        justify-self: center;
+        align-self: center;
+        margin: 16px;
+        background: transparent;
+        border: none;
+        outline: none;
+        border-bottom: 1.5px solid black;
+        width: 69%;
+        font-size: 15px;
+
+    }
+
+    .logo-sec {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 6px;
+    }
+
+    .logos {
+        margin: 0px;
+        padding: 0%;
+        height: 20px;
+    }
+
+    .logo-sec p {
+        font-size: 10px;
+        margin: 0;
+        padding: 0%;
+    }
+
+    input::placeholder {
+        font-size: 10px;
+    }
+
+    .type-gen label,
+    input[type=radio] {
+        font-size: 12px;
+        display: flex;
+        color: black;
+        height: 6px;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin: 1%;
+    }
+
+}
